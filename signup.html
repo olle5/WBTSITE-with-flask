@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="https://static.vecteezy.com/system/resources/thumbnails/000/627/703/small/illust58-6618-01.jpg"></a>
+            <ul class="navlist">
+                <li><a href="https://example.com/">Book a table</a></li>
+                <li><a href="https://example.com/">Place an order</a></li>
+                <li><a href="https://example.com/">Contact us</a></li>
+                <li><a href="https://example.com/">Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login-container">
+        <div id="login-title">Create your account</div>
+        <form method="POST">
+            <div class="form-text">            
+                <label for="fname">First name</label>
+                <input type="text" class="text-box" name="fname">
+            </div>
+            <div class="form-text">            
+                <label for="lname">Last name</label>
+                <input type="text" class="text-box" name="lname">
+            </div>
+            <div class="form-text">            
+                <label for="email">Email</label>
+                <input type="text" class="text-box" name="email">
+            </div>
+            <div class="form-text">
+                <label for="password">Password (6 or more characters)</label>
+                <input type="password" class="text-box" name="password">
+            </div> 
+            <div id="login-button">
+                <input type="submit" id="login" value="Join now">
+            </div> 
+          </form>
+        <hr>
+        <div class="bottom-text">Already a member? <a id="signup" href="login.html"><strong>Login</strong></a></div>
+    </div>
+</body>
+</html>
